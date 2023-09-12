@@ -27,9 +27,9 @@ Implementar un sistema de generación automática de pruebas basado en inteligen
 
 ### Requirements:
 
-matplotlib==3.7.1
-numpy==1.23.5
-selenium==4.9.0
+- matplotlib==3.7.1
+- numpy==1.23.5
+- selenium==4.9.0
 
 ### Autores:
 - Cristian Steeven Colorado Córdoba.

@@ -44,8 +44,8 @@ class Data_extract():
         self.driver.close()
     
     def obtener_perfiles_paginados(self,dato,num,xpath):
-        self.title = [[element.text for element in self.driver.find_elements(By.CLASS_NAME,dato)]]
+        self.text_list = [[element.text for element in self.driver.find_elements(By.CLASS_NAME,dato)]]
         for i in range(num):
             self.busqueda_xpath(xpath).click()
             time.sleep(4)
-            self.title.append([element.text for element in self.driver.find_elements(By.CLASS_NAME,dato)])
+            self.text_list.append([element.text for element in self.driver.find_elements(By.CLASS_NAME,dato)])
