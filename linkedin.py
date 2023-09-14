@@ -37,4 +37,4 @@ linkedin.Obtener_perfiles('base-search-card__title','base-search-card__subtitle'
 time.sleep(2)
 linkedin.Cerrar_drive()
 time.sleep(2)
-linkedin.Guardar_df(f'Trabajo-de-grado/Resultados/Resultado_{hora}.csv')
+linkedin.Guardar_df(f'./Resultados/Resultado_{hora}.csv')

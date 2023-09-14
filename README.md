@@ -15,11 +15,13 @@ Implementar un sistema de generación automática de pruebas basado en inteligen
 
 - os
 - Time
+- openai
 - folium
 - Pandas
 - Platform
 - GoogleV3
 - Webdriver
+- unidecode
 - matplotlib.pyplot
 - Selenium.webdriver.common.bY
 - Selenium.webdriver.common.keys
@@ -27,6 +29,7 @@ Implementar un sistema de generación automática de pruebas basado en inteligen
 
 ### Requirements:
 
+- python==3.10.12
 - matplotlib==3.7.1
 - numpy==1.23.5
 - selenium==4.9.0
