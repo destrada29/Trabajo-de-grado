@@ -3,3 +3,6 @@ Keys.py
 
 #ignorar cache
 __pycache__/
+
+openai
+pd
