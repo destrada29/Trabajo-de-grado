@@ -1,2 +1,5 @@
 #ignorar las llaves utilizadas en el proyecto
 Keys.py
+
+#ignorar cache
+__pycache__/
