@@ -2,7 +2,9 @@ import time
 import datetime
 from obb import Data_extract
 
+#local date
 hora = str(datetime.datetime.now())
+#dia = str(datetime.today().date())
 
 linkedin = Data_extract('https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs&position=1&pageNum=0')
 linkedin.ingresar_link()
@@ -38,3 +40,4 @@ time.sleep(2)
 linkedin.Cerrar_drive()
 time.sleep(2)
 linkedin.Guardar_df(f'./Resultados/Resultado_{hora}.csv')
+
