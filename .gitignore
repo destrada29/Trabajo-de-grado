@@ -1,8 +1,12 @@
-#ignorar las llaves utilizadas en el proyecto
-Keys.py
+# Llaves utilizadas en el proyecto
+Keys/
 
-#ignorar cache
+# cache
 __pycache__/
-
 openai
 pd
+
+# Entorno virual
+tdeg_venv/
+
+/Tesis/main_app/Keys/
